@@ -1,0 +1,23 @@
+* SCM, version control, git-scm.com 
+* git config —global user.name “snx”
+* git config --global user.email “snx@users.noreply.github.com”
+* Initialize your project for use with git & github
+    * git init
+* Add all untracked files to staging
+    * git add .
+* Commit the changes done so far, a checkpoint to come back to
+    * git commit -m “first commit”
+* Check logs for commit history
+    * git log
+* If tracked files are modified but not in staging and changes not required, restore it
+    * git restore .
+    * git restore README.md
+* If changes are in staging but changes not required, restore it
+    * git restore —staged README.md
+* If files are not tracked, but changes are not required, delete the file/changes manually.
+* Ignore files - sensitive files, personal notes, system files etc.
+    * touch .gitignore && vi .gitignore
+    * .DS_Store
+    * .vscode/
+    * node_modules
+    * notes/
