@@ -35,11 +35,3 @@ Git
 * change the commit message
     * git commit —amend
 * reset the commit, changes are not removed
-    * git reset <commit to point HEAD to>
-    * to lose the changes: git reset —hard <commit to point HEAD to>
-* Rebase to move the commit in commit order with changes
-    * git rebase -i —root
-    * when editing the rebase 
-        * we can move commit order
-        * squash - use commit, but meld into previous commit
-        * fixup - like squash but does not keep commit message
