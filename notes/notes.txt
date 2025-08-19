@@ -35,3 +35,21 @@ Git
 * change the commit message
     * git commit —amend
 * reset the commit, changes are not removed
+    * git reset <commit to point HEAD to>
+    * to lose the changes: git reset —hard <commit to point HEAD to>
+* Rebase to move the commit in commit order with changes
+    * git rebase -i —root
+    * when editing the rebase 
+        * we can move commit order
+        * squash - use commit, but meld into previous commit
+        * fixup - like squash but does not keep commit message
+* Branches (git flow)
+    * git branch
+    * new feature/fix branch: git switch -c newb or git checkout -b newb
+    * make changes in new branch
+    * merge to main/master: git switch main && git merge newb
+    * delete old branch: git branch —d newb (ignores conflict)
+* Merge conflict
+    * VS code extension: Live server
+    * if main/master was changed after checkout to new branch, conflict would occur while merging new branch to master
+    * we can accept incoming change or reject it, and manually fix the conflict code
