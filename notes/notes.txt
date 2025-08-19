@@ -24,6 +24,7 @@ Git
     * .DS_Store
     * .vscode/
     * node_modules
+    * .ssh/
     * Global ignore file: git config —global core.excludesfile [file]
     * Clean dirty cache (may require new commit) : git rm -r —cached .
 * remove a file and add deletion to staging
