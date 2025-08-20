@@ -39,8 +39,9 @@ Learning GITHUB - notes
 
 * Markdown
     * # headline level 1
-    * == headline level 1
-    * -- sub-headline
+    * ==== headline level 1
+    * ---- sub-headline
+
     * __bold__ or **bold**
     * _italic_ or *italic*
     * ~~strikethrough~~
@@ -48,5 +49,48 @@ Learning GITHUB - notes
     * --- horizontal rule
     * *** Astericks
     * ___ Underscores
+
+    * +, -, * for unordered lists
+    * n. for ordered list
+
+    Links
+    * [click here](https://github.com)
+    * [linkedin]: https://linkedin.com.  # reference links
+
+    Image
+    * ![image](https://linktoimage.com)
+    * [![image](https://linktoimage.com)](https://google.com).      #clickable image redirects to google.com
+
+    Code
+    * `code`
+    * ``` code here ```
+
+    Github Flavor Markdown
+    * Tables with alignment, aligned to left by default
+        | Left | Center | Right | 
+        | ---- | :----: | ----: | 
+    * Tasklist
+        - [] task1
+        - [x] task2
+    * Emoji with :
+    * Escape with \
+    * Mentions # and @
+    * [!NOTE] [!IMPORTANT] [!WARNING]
+    * Mermaid charts also supported
+        ```Mermaid
+        graph TD;
+            A --> B;
+            A --> C;
+        ```
+    
+Repo Essential files
+    * README.md - purpose, homepage, ToC,
+    * LICENSE - OSS license
+    * CODE_OF_CONDUCT.md 
+    * SECURITY.md - security support, reporting vulnerabilities, Security tab
+    * CONTRIBUTING.md - how to contribute, Issues tab
+    * SUPPORT.md - Issues tab 
+    * CODEOWNERS - reponsible persons, branch by branch,     "patterns @person"
+
 
 
