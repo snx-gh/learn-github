@@ -1,0 +1,27 @@
+Issues - type of tracker
+Discussions - conversations beyong bug tracking and feature requests, address topics in one place, organized by category 
+PR: uses branches to inform others about changes, and provides isolation from main code 
+
+Issues Etiquette
+    - One issue per issue
+    - Titles are to the point
+    - Provide evidence
+    - Identify steps
+
+Click on code line, and use *** to reference in issue 
+One can create issue from disscussion item 
+One can create issue from referencing a comment 
+
+Task List 
+    - Create a task list in comment/conversation using - [] 
+    - signify completed task as - [x]
+    - task can also be converted into a new issue
+
+Linking pull requests 
+    - keywords - fix, fixes, fixed, close, closes, closed, resolve, resolves, resolved
+    - upto 10 issues in a PR 
+
+
+Labels 
+    - 9 default labels
+

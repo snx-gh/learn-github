@@ -94,3 +94,38 @@ Repo Essential files
 
 
 
+Issues
+    * Issues tab, for potential new features or issues discussion
+    * assignee, labels can be tagged
+    * branch can be opened for an issue 
+
+
+Organizing & Managing Projects
+    * Contributers  - Repo settings > Collaborators
+    * Issues 
+    * Labels - organize issues
+    * Milestones - grouping issues into goals
+    * //Course - Project management on Github 
+
+Fetch vs Pull
+    * git fetch - pulls data from remote
+    * git pull -  equates to git fetch + git merge 
+
+
+Shortcuts
+    * . - to open codespaces
+    * repo.new or github.new - to create new repo 
+    * / - to search
+    * g + i - issues tab 
+    * g + p - pull requests 
+
+
+Github Discussions 
+    * Conversation, often about issues, goals etc. 
+
+Github Notifications 
+    * at repo level, on dashboard, in settings to control all sort of notifications 
+
+Github Gist
+    * gist.new - to create new gist 
+
